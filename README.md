@@ -3,20 +3,17 @@ This is a simple library to help find a problem
 that a debugger failed to find by displaying a
 simple backtrace.
 
-AUTHOR
-======
+## AUTHOR
 - Frédéric Hamel
 
-COMPILING
-=========
+## COMPILING
 This project uses the mesonbuild system.
 ```
 > meson . build
 > ninja -C build
 ```
 
-Example usage
-=============
+## Example usage
 There is a simple example that use default configuration.
 ```
 > LD_PRELOAD=/path/to/libbtsignal ./yourexecutable
